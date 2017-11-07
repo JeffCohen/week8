@@ -5,8 +5,8 @@ export default class App extends React.Component {
 
   constructor(props) {
     super(props)
-    this.state = { dice: [1, 2],
-      moviePosterUrl: "https://via.placeholder.com/300x450?text=Movie Poster"
+    this.state = {
+      dice: [1, 2]
     }
   }
 
